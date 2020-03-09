@@ -1,4 +1,5 @@
 FROM arm32v7/alpine:3.10
+COPY qemu-arm-static /usr/bin
 
 LABEL maintainer="Peter Dave Hello <hsu@peterdavehello.org>"
 LABEL name="tor-socks-proxy"
